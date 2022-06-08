@@ -17,7 +17,7 @@
 }
 
 .App-header {
-  background-color: #68A4C4;
+  /* background-color: #68A4C4; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -49,4 +49,39 @@ button {
 
 *{
   font-family: 'Prompt', sans-serif;
+}
+
+.card {
+  opacity: 1;
+  transition:.3s ease-in-out;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.card:hover {
+  opacity: .8;
+  transform:scale(1.1);
+  cursor: pointer;
+  box-shadow: 0 0 10px #68A4C4;
+}
+#header {
+  height:200px;
+  background-image: url('./images/BannerLMS.png');
+  background-repeat: no-repeat;
+  background-attachment: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 720px) {
+  .card {
+    padding:2rem !important;
+  }
+  #header {
+    height:350px;
+    background-image: url('./images/LMS.png');
+    background-repeat: no-repeat;
+    background-attachment: cover;
+  }
+  #header>img{
+    background-attachment: cover;
+  }
 }
