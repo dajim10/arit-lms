@@ -85,3 +85,31 @@ button {
     background-attachment: cover;
   }
 }
+
+#carouselExampleIndicators .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  height: 45vh;
+}
+
+a {
+  color:#fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color:000;
+}
+#carouselExampleIndicators .carousel-item:before {
+  content:"";
+  background-image: 
+    linear-gradient(
+      to bottom, transparent, rgba(0,0,0,0.5)
+    );
+    /* display: block; */
+    /* position:absolute; */
+    top:0;
+    width:100vw;
+    height: 100vh;
+}

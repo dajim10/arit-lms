@@ -4,17 +4,14 @@ import AritLogo from './favicon.ico'
 
 function Footer() {
     return (
-      <div
-        className="container-fluid  shadow text-light  mt-3"
-        style={{ backgroundColor: "#68A4C4", padding: "2rem" }}
-      >
+      <div style={{ backgroundColor: "#68A4C4", padding: "2rem" }}>
         <div className="row">
           <div className="col-sm">
             <strong>Contact us</strong>
             <ul className="mt-2">
               <li className="list-unstyled">
                 <p>
-                  <img src={AritLogo} width="50" alt="" />
+                  <img src={AritLogo} width="60" height="50" alt="" />
                   สำนักวิทยบริการและเทคโนโลยีสารสนเทศ
                   <br />
                 </p>
@@ -46,9 +43,14 @@ function Footer() {
           <div className="col-sm">
             <img src={MoodleLogo} width={150} alt="" />
             <p>
-              Pages <br />
-              RMUTSV เว็บไซต์มหาวิทยาลัย RMUTSV e-Passport e-Service
+              <hr />
+              <strong>Pages </strong>
               <br />
+              <a href="https://rmutsv.ac.th" target="_blank" rel="noopener noreferrer">RMUTSV เว็บไซต์มหาวิทยาลัย</a>{" "}
+              <br />
+              RMUTSV e-Passport
+              <br />
+              e-Service <br />
               RMUTSV mail สำหรับบุคลากร/อาจาย์ <br />
               RMUTSV mail สำหรับนักศึกษา
             </p>
