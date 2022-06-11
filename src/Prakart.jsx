@@ -40,22 +40,22 @@ function Prakart() {
             <div className="carousel-item active">
               <img
                 src="https://www.rmutsv.ac.th/img/030765.png"
-                className="d-block"
+                className="d-block rounded p-2"
                 alt=""
               />
             </div>
-            <div className="carousel-item">
+            <div className="carousel-item p-2">
               <img
                 src="https://www.online-learning.rmutsv.ac.th/wp-content/uploads/2020/05/ruts-online-2048x853.jpg"
-                className="d-block"
+                className="d-block rounded"
                 alt="..."
               />
             </div>
-            <div className="carousel-item">
+            <div className="carousel-item p-2">
               {/* carousel-item */}
               <img
                 src="https://arit.rmutsv.ac.th/sites/default/files/images/google-cloud/google3.png"
-                className="d-block"
+                className="d-block rounded "
                 alt="..."
               />
             </div>

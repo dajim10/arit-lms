@@ -4,7 +4,7 @@ import lmsLogo from "./images/lmsLogo.png";
 import "./App.css";
 import Footer from "./Footer";
 import lmsOld from "./images/lmsOld.png";
-import lmsNew from "./images/lmsNew.png";
+import lmsNew from "./images/1.png";
 import Head1 from "./images/head1.png";
 import BannerLMS from "./images/BannerLMS.png";
 import Prakart from "./Prakart"
