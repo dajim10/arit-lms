@@ -83,6 +83,14 @@ button {
   }
   #header>img{
     background-attachment: cover;
+
+  }
+  .carousel-item  {
+    width:100vw !important;
+    /* padding:50px; */
+    object-fit: cover !important;
+    object-position: center !important;
+    overflow-x: auto !important;
   }
 }
 
@@ -100,7 +108,9 @@ a {
 
 a:hover {
   color:000;
+
 }
+
 #carouselExampleIndicators .carousel-item:before {
   content:"";
   background-image: 
