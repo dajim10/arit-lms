@@ -92,13 +92,42 @@ button {
     object-position: center !important;
     overflow-x: auto !important;
   }
+  
+  .carousel-item  {
+    /* /* height:100vh; */
+    /* height:350px !important; */
+    width:100vw !important;
+    
+  }
+  .carousel-item img{
+    /* height:350px; */
+    max-width:100vw;
+    object-fit: cover;
+    object-position: center;
+  }
 }
 
-#carouselExampleIndicators .carousel-item img {
+/* #carouselExampleIndicators .carousel-item img {
   object-fit: cover;
   object-position: center;
-  overflow: hidden;
+  overflow: hidden; 
   height: 45vh;
+} */
+
+/* .carousel-item {
+  height: 50vh;
+  min-height: 350px;
+  object-fit: cover;
+  object-position: center;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+.carousel-item img {
+  width:100%;
 }
 
 a {
@@ -122,4 +151,11 @@ a:hover {
     top:0;
     width:100vw;
     height: 100vh;
+<<<<<<< HEAD
 }
+=======
+}
+
+
+
+>>>>>>> b0d950363d3be052fb42b96ceab817a4f1e6f02d
