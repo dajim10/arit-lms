@@ -6,6 +6,7 @@ pipeline {
     
             steps {
               echo 'building the application'
+              sh 'yarn build'
             }
         }
         
