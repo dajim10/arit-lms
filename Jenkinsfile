@@ -6,8 +6,10 @@ pipeline {
     
             steps {
               echo 'building the application'
-              nodejs('Node-18.18.0')
-              sh 'yarn install'
+              nodejs('Node-18.18.0') {
+                   sh 'yarn install'
+                   sh 'yarn build'
+              }
             }
         }
         
